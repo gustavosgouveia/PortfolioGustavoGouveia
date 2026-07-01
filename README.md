@@ -1,8 +1,17 @@
-# Curriculo Moderno
+# Portfólio Pessoal e Currículo Profissional
 
-Premium portfolio website for Gustavo de Souza Gouveia built with React, Vite, Tailwind CSS, Framer Motion and React Three Fiber.
+Este projeto é um portfólio moderno e profissional desenvolvido para apresentar minha experiência, habilidades e trajetória profissional de forma visual, organizada e atrativa.
 
-## Stack
+## Sobre o projeto
+
+Este site funciona como um currículo digital e uma vitrine profissional, destacando:
+
+- minha experiência profissional;
+- minhas principais competências;
+- projetos e destaques da carreira;
+- informações de contato para oportunidades e networking.
+
+## Tecnologias utilizadas
 
 - React 19
 - Vite
@@ -10,17 +19,17 @@ Premium portfolio website for Gustavo de Souza Gouveia built with React, Vite, T
 - Framer Motion
 - React Router
 - Lucide React
-- Three.js with React Three Fiber and Drei
-- Shadcn-style UI primitives
+- Three.js com React Three Fiber e Drei
+- Primitivas de interface inspiradas em Shadcn
 
-## Run
+## Como executar
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Notes
+## Observações
 
-- The social links in the contact section use placeholders and should be replaced with final public profiles.
-- The resume download points to `/Gustavo-de-Souza-Gouveia-Resume.pdf`. Replace that file with the final PDF before publishing.
+- Os links sociais podem ser atualizados com os perfis públicos finais.
+- O download do currículo aponta para um arquivo PDF que pode ser substituído pelo documento final antes da publicação.

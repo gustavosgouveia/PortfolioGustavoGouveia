@@ -129,7 +129,7 @@ export function SiteHeader() {
             onClick={() => setIsMenuOpen(false)}
           >
             <Download className="size-4" />
-            Download CV
+            Baixar currículo
           </a>
         </nav>
       </aside>

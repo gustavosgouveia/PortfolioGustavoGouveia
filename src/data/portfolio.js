@@ -36,7 +36,7 @@ export const heroContent = {
   ],
   cta: {
     projects: "Ver Projetos",
-    resume: "Download CV",
+    resume: "Baixar currículo",
     linkedin: "LinkedIn",
   },
   highlights: [
@@ -396,7 +396,7 @@ export const contactLinks = [
 
 ];
 
-export const resumeHref = "/Gustavo-de-Souza-Gouveia-Resume.pdf";
+export const resumeHref = "/CurriculoGustavoGouveia.pdf";
 
 export const architectureFlow = [];
 

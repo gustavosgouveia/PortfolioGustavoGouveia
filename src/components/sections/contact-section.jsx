@@ -19,8 +19,8 @@ export function ContactSection() {
     <SectionShell
       id="contact"
       eyebrow="Contato"
-      title="Disponivel para conversar sobre engenharia full stack, produtos internos e solucoes corporativas."
-      description="Os canais abaixo concentram os principais pontos de contato para oportunidades, networking e conversas tecnicas."
+      title="Disponível para conversar sobre engenharia full stack, produtos internos e soluções corporativas."
+      description="Os canais abaixo reúnem os principais pontos de contato para oportunidades, networking e conversas técnicas."
       className="pb-32"
     >
       <Card className="relative overflow-hidden p-8 md:p-10">
@@ -28,7 +28,7 @@ export function ContactSection() {
         <div className="relative grid gap-8 lg:grid-cols-[1fr_0.92fr] lg:items-end">
           <div>
             <h3 className="max-w-2xl text-3xl font-semibold tracking-[-0.04em] text-[var(--text-primary)] md:text-4xl">
-              Vamos construir experiencias de software com impacto real, arquitetura consistente e foco em negocio.
+              Vamos construir experiências de software com impacto real, arquitetura consistente e foco no negócio.
             </h3>
             <p className="mt-5 max-w-2xl text-base leading-8 text-[var(--text-secondary)]">
               {personalInfo.subtitle}
@@ -51,7 +51,7 @@ export function ContactSection() {
               <Magnetic className="inline-flex">
                 <Button asChild>
                   <a href={resumeHref} download>
-                    Download CV
+                    Baixar currículo
                     <ArrowRight className="size-4" />
                   </a>
                 </Button>
