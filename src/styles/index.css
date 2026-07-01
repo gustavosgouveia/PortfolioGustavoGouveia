@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap");
+@import "tailwindcss";
+
+:root {
+  --background: #0A192F;
+  --secondary-background: #112240;
+  --accent: #64FFDA;
+  --text-primary: #CCD6F6;
+  --text-secondary: #8892B0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--background);
+  color: var(--text-primary);
+  font-family: "Manrope", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: rgba(100, 255, 218, 0.24);
+  color: var(--text-primary);
+}
+
+.skip-link {
+  position: fixed;
+  left: 1.5rem;
+  top: 1.5rem;
+  z-index: 60;
+  transform: translateY(-200%);
+  border: 1px solid var(--accent);
+  border-radius: 0.375rem;
+  background: var(--accent);
+  color: var(--background);
+  padding: 0.75rem 1rem;
+  font-family: monospace;
+  font-size: 0.875rem;
+  transition: transform 180ms ease;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+  outline: none;
+}
+
+.glass-panel {
+  background: rgba(17, 34, 64, 0.56);
+  border-color: rgba(136, 146, 176, 0.12);
+  box-shadow: 0 22px 48px rgba(3, 12, 28, 0.34);
+  backdrop-filter: blur(18px);
+}
+
+.animated-grid {
+  background-image: linear-gradient(rgba(136, 146, 176, 0.08) 1px, transparent 1px), linear-gradient(90deg, rgba(136, 146, 176, 0.08) 1px, transparent 1px);
+  background-size: 72px 72px;
+  mask-image: radial-gradient(circle at center, black 42%, transparent 80%);
+  animation: grid-shift 20s linear infinite;
+}
+
+@keyframes grid-shift {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(72px, 72px, 0);
+  }
+}
